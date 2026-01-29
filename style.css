@@ -1,0 +1,254 @@
+/* .header{
+     flex-direction: row;
+    vertical-align: top; 
+} */
+
+
+.right-section{
+    
+    margin-left: 50px;
+}
+
+.left-section{
+   
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.logo{
+    font-family: Arial;
+    font-size: 35px;
+    vertical-align: top;
+    color:rgb(97, 241, 195);
+    margin-top: 0px;
+    margin-left: 10px;
+}
+body {
+    background-color: ghostwhite;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.login{  
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.btn{
+    background-color: rgb(97, 241, 195);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(50, 179, 150);
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: rgb(30, 120, 100);
+    transition: 0.3s;
+}
+
+.text-section{
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+
+
+.curved-line {
+  width: 400px;
+  height: 50px; 
+  margin-left: 0px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: solid 5px #020202; 
+  border-color:rgb(97, 241, 195) transparent transparent transparent; 
+  border-radius: 50% / 50px 50px 0 0; 
+  margin-bottom: 0px;
+}
+
+
+.text{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family : Arial, sans-serif;
+}
+
+.trial-btn{
+    background-color: rgb(97, 241, 195);
+    border: none;
+    width: 150px;
+    height: 52px;
+    left: 0px;
+    top: 80px;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.trial-btn:hover {
+    background-color: rgb(50, 179, 150);
+    transition: 0.2s;
+}
+
+.trial-btn:active {
+    background-color: rgb(30, 120, 100);
+    transition: 0.3s;
+}
+
+
+
+.btn-border{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px 10px 10px 10px;
+    border: 2px solid rgb(97, 241, 195);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.text-2{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 20px;
+    vertical-align: center;
+}
+
+.text-3{
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 400px;
+    font-weight: bold;
+
+}
+
+.play-button{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    width: 20px;
+    padding-top: 0px;
+}
+
+.paragraph{
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.tags{
+    margin-left: 200px;
+    gap: 20px;
+}
+
+.text-4{
+    font-size: 15px;
+    font-family: Arial;
+    color: grey;
+    margin-left: 50px;
+}
+
+.rating{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+
+.rating-2{
+     margin-left: 50px;
+    margin-top: 50px;
+   display: inline-block;
+}
+
+.third-section{
+margin-top: 100px;
+
+}
+
+.main-third-section{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.third-section-2{
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 75%;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+}
+
+.text-5{
+    font-size: 15px;
+    font-family: Arial;
+    color: grey;
+  
+}
+
+.icon-1{
+    display: inline-block;
+  
+}
+
+.icon-text{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-right: 170px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.main-forth-section{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+}
+
+.text-6{
+    font-family: Arial;
+    font-size: 15px;
+    color: grey;
+    width: 100%;
+    margin-right: 20px;
+}
+
+1
