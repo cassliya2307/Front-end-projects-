@@ -1,0 +1,68 @@
+.todo-header{
+    margin: 50px 50px 20px 50px;
+}
+
+body{
+   background: url(/todopic/blue.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+#add-book{
+    margin-left: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todo-container{
+    margin: 0 50px 50px 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    }
+
+
+.add-button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(91, 200, 251);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-input{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 410px;
+    margin-left: 300px;
+}
+
+.header-text{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: rgb(60, 210, 255);
+}
+
+#inner-list{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin-left: 300px;
+}
