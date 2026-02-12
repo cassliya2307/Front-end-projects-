@@ -12,7 +12,7 @@ let searchBook = document.querySelector('#inner-list input');
    const inputValue = addBook.querySelector("input").value.trim();
    console.log(inputValue);
     if(inputValue!=="") {
-      taskses.push(inputValue);
+    
     const li = document.createElement("li");
     const deleteBtn = document.createElement("span");
     const checkbox = document.createElement("input");
@@ -22,7 +22,7 @@ let searchBook = document.querySelector('#inner-list input');
     li.appendChild(firstTitle);
     li.prepend(checkbox);
     li.appendChild(deleteBtn);
-    saveTasks();
+   
     deleteBtn.style.cursor = "pointer";
     
     deleteBtn.classList.add("delete-btn");
@@ -34,8 +34,9 @@ let searchBook = document.querySelector('#inner-list input');
     });
     taskList.appendChild(li);
     firstTitle.textContent = inputValue;
-    
-
+      taskses.push(li);
+         saveTasks();
+         console.log(taskses);
     }
 
     else{
@@ -60,3 +61,6 @@ let searchBook = document.querySelector('#inner-list input');
     function saveTasks(){
       localStorage.setItem('tasks', JSON.stringify(taskses));
     }
+
+    document.addEventListener('DOMContentLoaded', taskList);
+    

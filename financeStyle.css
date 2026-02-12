@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f9fc;
+  color: #333;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+}
+
+.header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.logo {
+  color: #5b5fef;
+}
+
+
+.btn-signin {
+  background: #5b5fef;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-signup {
+  background: transparent;
+  border: 1px solid rgb(219, 219, 255);
+  color: #5b5fef;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.first-section-text {
+  max-width: 500px;
+}
+
+.sologan{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: rgb(255, 145, 48);
+    margin-bottom: 10px;
+}
+
+.first-section span{
+    color: #5b5fef;
+    text-decoration: underline;
+}
+.first-section-text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.first-section-text p {
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.first-section-buttons button {
+  margin-right: 10px;
+}
+
+.first-section-image .image {
+  width: 380px;
+  height: 260px;
+  background: #e6e9f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  border-radius: 12px;
+}
+
+/* second part */
+.first-section-text-part2 h1 ,h3{
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.first-section-text-part2 , p{
+  margin-bottom: 25px;
+  color: #666;
+  text-align: center;
+}
+.blank-box{
+    display: flex;
+    flex: content;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.blank-box div{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #cccccc;
+    height: 30px;
+    width: 30px;
+}
+
+.last{
+   margin-top: 70px; 
+}
+
+.link-div{
+    display: flex;
+    flex: content;
+    gap: 50px;
+    margin-left: 70px;
+    margin-right: 20px;
+    align-content: center;
+}
+
+.link-div h4{
+    color:#5b5fef;
+   
+}
+
+.link-div h5{
+    color: #777;
+    margin-top: 30px;
+}
+
+.link-div2{
+    display: flex;
+    flex: content;
+    gap: 150px; 
+    justify-content: center;
+    margin-top: 50px;
+}
